@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="styles.css">
+
+        <title> To-Do List </title>
+    </head>
+
+    <body>
+        <div class="container empty-list">
+            <header>
+                <div class="theme_toggle">
+                    <button class="theme_toggle_btn"></button>
+                </div>
+                <span class="heading"> To-Do List </span>
+            </header>
+
+            <section class="tasks">
+                <ul id="taskList"></ul>
+            </section>
+
+            <footer>
+                <form id="task_form">
+                    <input type="text" id="task_input" placeholder="Create New Task" autocomplete="off">
+                    <button id="task_input_btn" type="submit"></button>
+                </form>
+            </footer>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
